@@ -1,0 +1,45 @@
+.white-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .underLine {
+        display: block;
+        margin: 0 auto;
+        width: 98%;
+        height: 1px;
+        background: rgba(109, 107, 107, 0.747);
+    }
+
+    &__product {
+        margin: 10px;
+
+        .product-mark {
+            color: rgb(236, 236, 17);
+            font-size: 25px;
+            margin: 8px;
+        }
+
+        p {
+            margin: 10px;
+        }
+
+        .product-price {
+            margin-top: 10px;
+
+            h5 {
+                font-weight: 900;
+                font-size: 23px;
+                color: red;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+        }
+    }
+}

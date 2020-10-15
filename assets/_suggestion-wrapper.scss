@@ -1,0 +1,40 @@
+.suggestion-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+   
+
+    .item-wrapper {
+        display: flex;
+        margin: 10px;
+        border: 1px solid rgb(150, 149, 149)
+        ;
+
+        h4 {
+            margin-bottom: 8px;
+        }
+
+        img {
+            max-width: 60%;
+            max-height: 150px;
+            margin: 10px;
+        }
+
+        a {
+            margin-top: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .button-link {
+            display: flex;
+            flex-direction: row;
+            margin: 8px 0 8px 0;
+
+            i {
+                margin-left: 8px;
+                margin-top: 3px;
+            }
+        }
+    }
+}

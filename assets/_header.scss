@@ -1,0 +1,65 @@
+header {
+    height: 20vh;
+}
+// -- Header Black --
+.header-black {
+    height: 10vh;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        text-transform: uppercase;
+        color: rgb(238, 238, 49);
+        font-weight: 800;
+        margin-left: 14px;
+        font-size: 30px;
+    }
+    .header-icon {
+        i {
+            color: white;
+            margin: 10px;
+            font-size: 22px;
+        }
+    }
+}
+//  -- Header Gray --
+.header-gray {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background: rgb(48, 46, 46);
+
+    .hamburgerMeni {
+        margin-right: 10px;
+        .hamburger {
+            width: 40px;
+            height: 5px;
+            background: black;
+            margin: 3px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .input-filed {
+        position: relative;
+        width: 90%;
+        div {
+            margin-right: 5px;
+            .input {
+                height: 40px;
+                border: none;
+                width: 100%;
+            }
+        }
+
+        i {
+            position: absolute;
+            top: 12px;
+            right: 10px;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.orange-wrapper {
+    background: rgb(255, 93, 10);
+    text-align: center;
+    padding-bottom: 10px;
+
+    h2 {
+        color: white;
+        font-size: 35px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 14px;
+        font-weight: 900;
+    }
+
+    .single-wrapper {
+        &--firstWrap {
+            flex-direction: column;
+            .single-wrapper__description {
+                text-align: center;
+            }
+        }
+
+        display: flex;
+        flex-direction: row;
+        background: lightcyan;
+        margin: 12px;
+        padding: 25px;
+        border-radius: 25px;
+
+        &__img {
+            margin-right: 14px;
+            img {
+                max-width: 85%;
+                max-height: 220px;
+            }
+        }
+
+        &__description {
+            text-align: left;
+            p {
+                color: rgb(65, 65, 238);
+            }
+
+            .price {
+                color: black;
+                padding-top: 10px;
+                text-decoration: line-through;
+                span {
+                    font-size: 12px;
+                }
+            }
+
+            .new-price {
+                color: black;
+                padding-top: 10px;
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
